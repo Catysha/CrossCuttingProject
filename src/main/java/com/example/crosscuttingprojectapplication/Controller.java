@@ -56,7 +56,7 @@ public class Controller {
     public void selectInputFile(ActionEvent actionEvent) {
         Stage primaryStage = new Stage();
         final FileChooser fileChooser = new FileChooser();
-        fileChooser.setInitialDirectory(new File("C:\\programmes\\2_course\\Industrial programming\\CrossCuttingProject-master\\__fixtures__"));
+        fileChooser.setInitialDirectory(new File("C:\\programmes\\2_course\\Industrial programming\\CrossCuttingProject-master\\files"));
         inputButton.setOnAction(new EventHandler<ActionEvent>() {
             @Override
             public void handle(ActionEvent event) {
